@@ -16,12 +16,22 @@ Draw HeatMap
 
 ### options
 #### scale
+point scale.
 #### alpha
+point alpha.
 #### hoverBoder
+point hover style.
 #### bgAlpha
+background alpha.
 #### bgColor
+background color.
 #### bgId
+background div element ID.
 ### points
+heatmap points.
 ### maxPoint
+heatmap max point.
 
 # Change Logs
+## v0.1
+initial
