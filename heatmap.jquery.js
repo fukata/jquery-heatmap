@@ -95,13 +95,15 @@ limitations under the License.
 
 	function heat(element, options, points, maxPoint) {
 		var $self = $(element);
+		var o = $self.offset();
+		var h = $self.height() + (o.top + o.left);
 		var $canvas = $(document.createElement("div")).css({
 			"z-index" : 1000,
 			"position" : "absolute",
 			"top" : 0,
 			"left" : 0,
 			"width" : "100%",
-			"height" : $self.height() + "px",
+			"height" : h + "px",
 			"background" : "#000",
 			"opacity" : options.bgAlpha,
 			"-moz-opacity" : options.bgAlpha,
