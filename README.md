@@ -14,23 +14,23 @@ HeatMap utility for jQuery Plugin.
 ### heatmap(options, points, maxPoint)
 Draw HeatMap
 
-### options (json)
-#### scale (int)
-point scale.
-#### alpha (float) 0 - 1
-point alpha.
-#### hoverBoder (string)
-point hover style.
-#### bgAlpha (float) 0 - 1
-background alpha.
-#### bgColor (string)
-background color.
-#### bgId (string)
-background div element ID.
-### points (json)
-heatmap points.
-### maxPoint (int)
-heatmap max point.
+- options (json)
+ - scale (int)
+  - point scale.
+ - alpha (float) 0 - 1
+  - point alpha.
+ - hoverBoder (string)
+  - point hover style.
+ -  bgAlpha (float) 0 - 1
+  - background alpha.
+ - bgColor (string)
+  - background color.
+ - bgId (string)
+  - background div element ID.
+ - points (json)
+  - heatmap points.
+ - maxPoint (int)
+  - heatmap max point.
 
 # Change Logs
 ## v0.1
