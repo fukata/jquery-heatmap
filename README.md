@@ -14,7 +14,7 @@ HeatMap utility for jQuery Plugin.
 ### heatmap(options, points, maxPoint)
 Draw HeatMap
 
-### options
+### options (json)
 #### scale (int)
 point scale.
 #### alpha (float) 0 - 1
